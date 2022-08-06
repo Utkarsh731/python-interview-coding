@@ -1,6 +1,5 @@
 def balance_parentheses(input_string):
     open_brackets = '{[('
-    closing_brackets = '}])'
     bracket_stack = list()
     for val in input_string:
         if val in open_brackets:
