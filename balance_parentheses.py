@@ -1,3 +1,7 @@
+'''
+Check if the string contains balance parenthesis or not
+'''
+
 def balance_parentheses(input_string):
     open_brackets = '{[('
     bracket_stack = list()
