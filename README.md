@@ -23,3 +23,7 @@ output = "2043"
 
 q6. write a function that returns the Run Length Encoded string for the input string.
 For example, if the input string is “aaabbccddd”, then the function should return “3a2b2c3d”
+
+q7. You are given an array of integers. Return an array of the same size where the element at each index 
+is the product of all the elements in the original array except for the element at that index. 
+For example, an input of [1, 2, 3, 4, 5] should return [120, 60, 40, 30, 24]. You cannot use division in this problem.
