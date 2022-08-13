@@ -29,3 +29,5 @@ is the product of all the elements in the original array except for the element 
 For example, an input of [1, 2, 3, 4, 5] should return [120, 60, 40, 30, 24]. You cannot use division in this problem.
 
 q8. Find if Given number is power of 2 or not. More specifically, find if given number can be expressed as 2^k where k >= 1.
+
+q9. Maximize partitions such that no two substrings have any common character input = '“ababcbacadefegdehijhklij” output = 3
