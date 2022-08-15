@@ -38,3 +38,4 @@ q11. Given a string S consisting only of opening and closing parenthesis 'ie '('
 find out the length of the longest valid(well-formed) parentheses substring.
 NOTE: Length of the smallest valid substring ( ) is 2.
 
+q12. Given a matrix where each row and each column is sorted, check whether the given number is present in the matrix.
