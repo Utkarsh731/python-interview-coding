@@ -33,3 +33,8 @@ q8. Find if Given number is power of 2 or not. More specifically, find if given 
 q9. Maximize partitions such that no two substrings have any common character input = '“ababcbacadefegdehijhklij” output = 3
 
 q10. Find Square Root of a whole number without using standard functions
+
+q11. Given a string S consisting only of opening and closing parenthesis 'ie '(' and ')', 
+find out the length of the longest valid(well-formed) parentheses substring.
+NOTE: Length of the smallest valid substring ( ) is 2.
+
