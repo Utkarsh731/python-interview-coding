@@ -16,7 +16,6 @@ def run_length_encoding(input_string):
                 prev_char = char
                 counter = 1
             else:
-                print(char)
                 output_string = output_string + str(counter) + str(prev_char)
                 prev_char = char
                 counter = 1
