@@ -41,3 +41,5 @@ NOTE: Length of the smallest valid substring ( ) is 2.
 q12. Given a matrix where each row and each column is sorted, check whether the given number is present in the matrix.
 
 q13. Remove all the vowels from a string using decorator 
+
+q14. Reverse the bits of an 32 bit unsigned integer A
