@@ -45,3 +45,6 @@ q13. Remove all the vowels from a string using decorator
 q14. Reverse the bits of an 32 bit unsigned integer A
 
 q15. Given a string, check if it is a palindrome by ignoring spaces. E.g. race car would be a palindrome.
+
+q16. You have an array of n elements, and a sum. Check if any 2 elements in the array sum to the given sum.
+
