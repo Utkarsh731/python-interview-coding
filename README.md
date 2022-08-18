@@ -43,3 +43,5 @@ q12. Given a matrix where each row and each column is sorted, check whether the 
 q13. Remove all the vowels from a string using decorator 
 
 q14. Reverse the bits of an 32 bit unsigned integer A
+
+q15. Given a string, check if it is a palindrome by ignoring spaces. E.g. race car would be a palindrome.
