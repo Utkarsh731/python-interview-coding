@@ -48,3 +48,6 @@ q15. Given a string, check if it is a palindrome by ignoring spaces. E.g. race c
 
 q16. You have an array of n elements, and a sum. Check if any 2 elements in the array sum to the given sum.
 
+q17. Given an array A[] of N numbers and another number x,
+determine whether or not there exist three elements in A[] whose sum is exactly x.
+
