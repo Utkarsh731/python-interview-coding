@@ -51,3 +51,5 @@ q16. You have an array of n elements, and a sum. Check if any 2 elements in the 
 q17. Given an array A[] of N numbers and another number x,
 determine whether or not there exist three elements in A[] whose sum is exactly x.
 
+q18. Given an array of strings, return the common prefixes, 
+if not found return an empty array. Ex. ['abcd', 'abb', 'acd'] -> return 'a'
