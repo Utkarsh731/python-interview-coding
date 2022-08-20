@@ -53,3 +53,5 @@ determine whether or not there exist three elements in A[] whose sum is exactly 
 
 q18. Given an array of strings, return the common prefixes, 
 if not found return an empty array. Ex. ['abcd', 'abb', 'acd'] -> return 'a'
+
+q19. write the code to find the second max element in the array
