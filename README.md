@@ -59,3 +59,5 @@ q19. write the code to find the second max element in the array
 q20. Write a code to print the diamond shape.
 
 q21. Write a code to print the right angle triangle of stars.
+
+q22. Write a code to print the right angle triangle of stars(opposite).
