@@ -49,7 +49,7 @@ q15. Given a string, check if it is a palindrome by ignoring spaces. E.g. race c
 q16. You have an array of n elements, and a sum. Check if any 2 elements in the array sum to the given sum.
 
 q17. Given an array A[] of N numbers and another number x,
-determine whether or not there exist three elements in A[] whose sum is exactly x.
+determine whether there exist three elements in A[] whose sum is exactly x.
 
 q18. Given an array of strings, return the common prefixes, 
 if not found return an empty array. Ex. ['abcd', 'abb', 'acd'] -> return 'a'
@@ -57,3 +57,7 @@ if not found return an empty array. Ex. ['abcd', 'abb', 'acd'] -> return 'a'
 q19. write the code to find the second max element in the array
 
 q20. Write a code to print the diamond shape.
+
+q21. Write a code to print the right angle triangle of stars.
+
+q22. Write a code to print the right angle triangle of stars(opposite).
