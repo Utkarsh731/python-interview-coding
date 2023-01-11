@@ -63,3 +63,5 @@ q21. Write a code to print the right angle triangle of stars.
 q22. Write a code to print the right angle triangle of stars(opposite).
 
 q23. Write a code to print the right angle triangle of stars(mirror).
+
+q24. Write a code to print the right angle triangle of stars(mirror opposite).
