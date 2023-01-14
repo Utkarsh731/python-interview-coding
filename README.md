@@ -71,3 +71,7 @@ q25. Write a code to print the right angle triangle of numbers.
 q26. Write a code to print the right angle triangle of numbers(opposite).
 
 q27. Write a code to print the right angle triangle mirror of numbers(opposite).
+
+q28. Write a code to print fibonacci series till the nth term using recursion.
+
+q29. Write a code to print fibonacci series till the nth term without using recursion.
