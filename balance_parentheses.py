@@ -1,47 +1,26 @@
-'''
-Check if the string contains balance parenthesis or not
-'''
+# Check if the string contains balanced parenthesis or not
 
-def balance_parentheses_solution_one(input_string):
-    open_brackets = '{[('
-    bracket_stack = list()
+def balance_parentheses(input_string):
+    open_brackets = '{[('  # define all open brackets
+    closed_brackets = '}])'  # define all closed brackets
+    bracket_stack = []  # Initialize an empty list to store brackets
+
     for val in input_string:
         if val in open_brackets:
-            bracket_stack.append(val)
+            bracket_stack.append(val)  # Append open bracket to stack
         else:
-            if len(bracket_stack):
-                elem = bracket_stack[-1] 
-                if (elem == "{" and val == "}") or (elem == "[" and val == "]") or (elem == "(" and val == ")") :
-                    bracket_stack.pop()
+            if bracket_stack:  # Check if stack is not empty
+                elem = bracket_stack[-1]  # Get the last element of the stack
+                if (elem == "{" and val == "}") or (elem == "[" and val == "]") or (elem == "(" and val == ")"):
+                    bracket_stack.pop()  # If last element matches the closed bracket, pop it
                 else:
-                    return "Not balanced"
+                    return "Not balanced"  # If last element does not match closed bracket, return "Not balanced"
             else:
-                return "Not balanced"
-    if bracket_stack:
-        return "Not balanced"
-    return "Balanced"
-    
+                return "Not balanced"  # If stack is empty, return "Not balanced"
 
-def balance_parentheses_solution_two(input_string):
-    open_brackets = '{[('
-    closed_brackets = '}])'
-    bracket_stack = list()
-    for val in input_string:
-        if val in open_brackets:
-            bracket_stack.append(val)
-        else:
-            if len(bracket_stack):
-                elem = bracket_stack[-1]
-                open_index = open_brackets.index(elem)
-                close_index = closed_brackets.index(val)
-                if close_index == open_index :
-                    bracket_stack.pop()
-                else:
-                    return "Not balanced"
-            else:
-                return "Not balanced"
-    if bracket_stack:
-        return "Not balanced"
-    return "Balanced"
+    if bracket_stack:  # Check if there are any remaining elements in stack
+        return "Not balanced"  # If yes, return "Not balanced"
+    return "Balanced"  # If not, return "Balanced"
 
-print(balance_parentheses_solution_two("[{}{}]"))
+print(balance_parentheses("[{}{}]"))  # Balanced
+print(balance_parentheses("[{}{}(]"))  # Not balanced
