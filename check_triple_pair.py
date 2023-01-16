@@ -1,23 +1,13 @@
-'''
-Given an array A[] of N numbers and another number x,
-determine whether or not there exist three elements in A[] whose sum is exactly x.
-
-input =  [1, 4, 45, 6, 10, 8]
-sum = 22
-output =  "Yes there exists a pair"
-'''
+# Given an array A[] of N numbers and another number x, determine whether or not there exist three elements in A[] whose sum is exactly x.
 
 def check_pair(arr, total):
-    new_arr = set()
-    for i in range(0, len(arr)-1):
-        remaining_total = total - arr[i]
+    seen = set() # initialize an empty set to store elements
+    for i in range(len(arr)):
+        remaining_total = total - arr[i] # calculate the remaining total
         for j in range(i+1, len(arr)):
-            if remaining_total - arr[j] in new_arr:
-                pair = (arr[i], arr[j], remaining_total-arr[j])
-                return "Yes there exists a pair"
-            new_arr.add(arr[j])
-    return "No such pair exists"       
+            if remaining_total - arr[j] in seen:  # check if the complement exists in the set
+                return "Yes there exists a pair"  # return yes if exists
+            seen.add(arr[j]) # add the current element to the set
+    return "No such pair exists" # return no if no such pair exists
 
-
-
-print(check_pair([1, 4, 45, 6, 10, 8], 22))
+print(check_pair([1, 4, 45, 6, 10, 8], 22))  # Yes there exists a pair
