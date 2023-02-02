@@ -75,3 +75,5 @@ q27. Write a code to print the right angle triangle mirror of numbers(opposite).
 q28. Write a code to print fibonacci series till the nth term using recursion.
 
 q29. Write a code to print fibonacci series till the nth term without using recursion.
+
+q30. Write a code to read and print the sqllite schema for all the tables.
