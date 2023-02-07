@@ -1,79 +1,36 @@
-# python-interview-coding
-This repository contains the solution of average coding problems asked in the SDE level 1 and 2.
-All the solutions are in python.
+<b>Python Interview Coding Problems</b><br>
+This repository contains a comprehensive collection of coding problems commonly asked during software engineering interviews, particularly for the level 1 and 2 positions. All solutions are written in Python.
 
-Questions- 
+<b>Problem List</b>
+1. Flatten an array consisting of inner arrays into a single array.
+2. 21 Sticks problem - code to ensure that you will never lose. 
+3. Check if a string has balanced parenthesis. 
+4. Find a pair with product equal to a given number in a distinct element array. 
+5. Build the lowest possible number from a string of digits by removing n digits. 
+6. Return the Run Length Encoded string for the input string. 
+7. Get an array of the same size with the product of all elements in the original array except for the element at that index. 
+8. Determine if a number is a power of 2. 
+9. Maximize partitions with no common characters in substrings. 
+10. Find the square root of a whole number without using standard functions. 
+11. Get the length of the longest valid parentheses substring. 
+12. Check if a number is present in a matrix with sorted rows and columns. 
+13. Remove all vowels from a string using a decorator. 
+14. Reverse the bits of a 32-bit unsigned integer. 
+15. Check if a string is a palindrome by ignoring spaces. 
+16. Check if any 2 elements in an array sum to a given sum. 
+17. Determine if there exist three elements in an array whose sum is exactly x. 
+18. Get the common prefixes in an array of strings or return an empty array. 
+19. Find the second max element in an array. 
+20. Print a diamond shape. 
+21. Print a right angle triangle of stars. 
+22. Print a right angle triangle of stars in the opposite direction. 
+23. Print a mirror right angle triangle of stars. 
+24. Print a mirror right angle triangle of stars in the opposite direction. 
+25. Print a right angle triangle of numbers. 
+26. Print a right angle triangle of numbers in the opposite direction. 
+27. Print a mirror right angle triangle of numbers in the opposite direction. 
+28. Print the fibonacci series till the nth term using recursion. 
+29. Print the fibonacci series till the nth term without using recursion. 
+30. Read and print the SQLite schema for all tables.
 
-q1. Given an array consisting many inner arrays, flatten the array into one: example: input:[[6,4,7,[9,5,4,[2,4,8]]],[2,2,7],[9,0,7,[9,3,1,8,5]]] 
-output: [6,4,7,9,5,4,2,4,8,2,2,7,9,0,7,9,3,1,8,5]
-
-q2. 21 sticks problem: first the opponent will pickup the stick- minimumsticks = 1, maximum = 4, then you will pickup the stick.
-the one picking up the last stick will be loser
-write a code that will ensure that you will never loose
-
-q3. Check if the string contains balance parenthesis or not
-
-q4. Given an array of distinct elements and a number x, find if there is a pair with product equal to x.
-and print all the pairs
-
-q5. Given a string ‘str’ of digits and an integer ‘n’,
-build the lowest possible number by removing ‘n’ digits from the string and not changing the order of input digits.
-str = "4325043" , n=3
-output = "2043"
-
-q6. write a function that returns the Run Length Encoded string for the input string.
-For example, if the input string is “aaabbccddd”, then the function should return “3a2b2c3d”
-
-q7. You are given an array of integers. Return an array of the same size where the element at each index 
-is the product of all the elements in the original array except for the element at that index. 
-For example, an input of [1, 2, 3, 4, 5] should return [120, 60, 40, 30, 24]. You cannot use division in this problem.
-
-q8. Find if Given number is power of 2 or not. More specifically, find if given number can be expressed as 2^k where k >= 1.
-
-q9. Maximize partitions such that no two substrings have any common character input = '“ababcbacadefegdehijhklij” output = 3
-
-q10. Find Square Root of a whole number without using standard functions
-
-q11. Given a string S consisting only of opening and closing parenthesis 'ie '(' and ')', 
-find out the length of the longest valid(well-formed) parentheses substring.
-NOTE: Length of the smallest valid substring ( ) is 2.
-
-q12. Given a matrix where each row and each column is sorted, check whether the given number is present in the matrix.
-
-q13. Remove all the vowels from a string using decorator 
-
-q14. Reverse the bits of an 32 bit unsigned integer A
-
-q15. Given a string, check if it is a palindrome by ignoring spaces. E.g. race car would be a palindrome.
-
-q16. You have an array of n elements, and a sum. Check if any 2 elements in the array sum to the given sum.
-
-q17. Given an array A[] of N numbers and another number x,
-determine whether there exist three elements in A[] whose sum is exactly x.
-
-q18. Given an array of strings, return the common prefixes, 
-if not found return an empty array. Ex. ['abcd', 'abb', 'acd'] -> return 'a'
-
-q19. write the code to find the second max element in the array
-
-q20. Write a code to print the diamond shape.
-
-q21. Write a code to print the right angle triangle of stars.
-
-q22. Write a code to print the right angle triangle of stars(opposite).
-
-q23. Write a code to print the right angle triangle of stars(mirror).
-
-q24. Write a code to print the right angle triangle of stars(mirror opposite).
-
-q25. Write a code to print the right angle triangle of numbers.
-
-q26. Write a code to print the right angle triangle of numbers(opposite).
-
-q27. Write a code to print the right angle triangle mirror of numbers(opposite).
-
-q28. Write a code to print fibonacci series till the nth term using recursion.
-
-q29. Write a code to print fibonacci series till the nth term without using recursion.
-
-q30. Write a code to read and print the sqllite schema for all the tables.
+<b>Each question has a detailed solution in Python. Whether you are preparing for an interview, or just want to improve your coding skills, this repository is a great resource for you.</b>
