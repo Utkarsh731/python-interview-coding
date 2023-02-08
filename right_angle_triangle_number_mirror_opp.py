@@ -1,19 +1,32 @@
-# The function creates a triangle of numbers with the number of rows specified by the input argument
 def create_triangle(number_of_rows):
-    # If no value is entered for the number of rows, a prompt to enter a number is displayed
+    """
+    This function creates a triangle of numbers with the number of rows specified by the input argument.
+    If no value is entered for the number of rows, a prompt to enter a number is displayed.
+    The triangle is constructed by printing numbers in decreasing order and increasing spaces for each row.
+
+    Parameters:
+    number_of_rows (int): The number of rows in the triangle.
+
+    Returns:
+    None
+
+    Example:
+    create_triangle(5)
+    Output:
+    12345
+     1234
+      123
+       12
+        1
+
+    """
     if not number_of_rows:
         print("Please enter a number")
     else:
-        # Initialize the variable 'space' to keep track of the number of spaces to be printed before each row of numbers
         space = 0
-        # A for loop is used to create the triangle by printing numbers in decreasing order and increasing spaces for each row
         for num in range(number_of_rows, 0, -1):
-            print(" "*space, end="") # print spaces before each row
-            # inner loop to print numbers in increasing order
+            print(" "*space, end="")
             for i in range(num):
                 print(i+1, end="")
-            print() # line break after each row
-            space += 1 # increase the number of spaces for the next row
-
-# Call the function and pass an argument of 5
-create_triangle(5)
+            print()
+            space += 1
