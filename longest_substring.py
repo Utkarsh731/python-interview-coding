@@ -3,15 +3,29 @@
 # NOTE: Length of the smallest valid substring ( ) is 2.
 
 def longest_substring(word):
-    stack = [] # initialize an empty stack
-    max_len = 0 # initialize max_len as 0
-    for char in word: # iterate through the string
-        if char == "(": # if the current character is an open parenthesis
-            stack.append("(") # append it to the stack
+    """
+    This function calculates the length of the longest valid parentheses substring in a given string.
+
+    Parameters:
+    word (str): a string consisting of only opening and closing parenthesis '(' and ')'
+
+    Returns:
+    int: the length of the longest valid parentheses substring
+
+    Example:
+    >>> longest_substring('()(()))))')
+    4
+    """
+    stack = []  # initialize an empty stack
+    max_len = 0  # initialize max_len as 0
+    for char in word:  # iterate through the string
+        if char == "(":  # if the current character is an open parenthesis
+            stack.append("(")  # append it to the stack
         else:
-            if len(stack): # if the stack is not empty
-                stack.pop() # remove the last open parenthesis from the stack
-                max_len += 2 # increase the max_len by 2
+            if len(stack):  # if the stack is not empty
+                stack.pop()  # remove the last open parenthesis from the stack
+                max_len += 2  # increase the max_len by 2
     return max_len
+
 
 print(longest_substring('()(()))))'))  # 4
