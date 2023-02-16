@@ -32,5 +32,10 @@ This repository contains a comprehensive collection of coding problems commonly 
 28. Print the fibonacci series till the nth term using recursion. 
 29. Print the fibonacci series till the nth term without using recursion. 
 30. Read and print the SQLite schema for all tables.
+31. Given an array of meeting time intervals consisting of start and end times[[s1,e1],[s2,e2],...](si< ei), find the minimum number of conference rooms required. 
+     Input:[[0, 30],[5, 10],[15, 20]]
+     Output: 2
+     Input: [[7,10],[2,4]]
+     Output: 1
 
 <b>Each question has a detailed solution in Python. Whether you are preparing for an interview, or just want to improve your coding skills, this repository is a great resource for you.</b>
