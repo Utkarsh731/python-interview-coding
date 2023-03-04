@@ -1,5 +1,5 @@
 <b>Python Interview Coding Problems</b><br>
-This repository contains a comprehensive collection of coding problems commonly asked during software engineering interviews, particularly for the level 1 and 2 positions. All solutions are written in Python.
+Unlock your coding potential with this ultimate repository of software engineering interview problems! From Level 1 to Level 2 positions, we've got you covered. Get ready to ace your interviews with our Python-based solutions.
 
 <b>Problem List</b>
 1. Flatten an array consisting of inner arrays into a single array.
