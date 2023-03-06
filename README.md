@@ -38,4 +38,4 @@ Unlock your coding potential with this ultimate repository of software engineeri
      Input: [[7,10],[2,4]]
      Output: 1
 
-<b>Each question has a detailed solution in Python. Whether you are preparing for an interview, or just want to improve your coding skills, this repository is a great resource for you.</b>
+<b>Each question has a detailed solution in Python with comments. Whether you are preparing for an interview, or just want to improve your coding skills, this repository is a great resource for you.</b>
