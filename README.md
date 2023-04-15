@@ -37,5 +37,9 @@ Unlock your coding potential with this ultimate repository of software engineeri
      Output: 2
      Input: [[7,10],[2,4]]
      Output: 1
+32. Take input for the number of elements, then take all the elements, and ask user which comprehension he wants- List,
+    Dict, Set or Generator Comprehension. Then create comprehension according to the user's input.
+    Returns:
+    response (list): List, dictionary, set, or generator comprehension created based on user input.
 
 <b>Each question has a detailed solution in Python with comments. Whether you are preparing for an interview, or just want to improve your coding skills, this repository is a great resource for you.</b>
