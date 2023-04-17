@@ -41,5 +41,6 @@ Unlock your coding potential with this ultimate repository of software engineeri
     Dict, Set or Generator Comprehension. Then create comprehension according to the user's input.
     Returns:
     response (list): List, dictionary, set, or generator comprehension created based on user input.
+33. What are map, filter and reduce in python, write a sample code for them.
 
 <b>Each question has a detailed solution in Python with comments. Whether you are preparing for an interview, or just want to improve your coding skills, this repository is a great resource for you.</b>
