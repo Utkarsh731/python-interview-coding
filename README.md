@@ -6,6 +6,9 @@ From Level 1 to Level 2 positions, we've got you covered. Get ready to ace your 
 For Theoretical Questions - [Crack Your Python Interview with These Top Python Questions and Answers](https://medium.com/@utkarshshukla.author/crack-your-python-interview-with-these-top-python-questions-and-answers-1de79f373e0f)
 
 <b>Questions List</b>
+
+<b>Each question has a detailed solution in Python with comments. Whether you are preparing for an interview, or just want to improve your coding skills, this repository is a great resource for you.</b>
+
 1. Flatten an array consisting of inner arrays into a single array.
 2. 21 Sticks problem - code to ensure that you will never lose. 
 3. Check if a string has balanced parenthesis. 
