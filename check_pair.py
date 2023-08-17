@@ -14,3 +14,21 @@ def check_pair(arr, total):
 
 print(check_pair([1, 4, 45, 6, 10, 8], 16))  # [(6, 10)]
 print(check_pair([0, -1, 2, -3, 1], -2))  # [(-3, 1)]
+
+```
+#[1, 4, 45, 6, 10, 8], 16
+def check_pair(array, total):
+    pairs = []
+    array.sort()
+    for i in range(0,len(array)-1):
+        for j in range(i+1, len(array)):
+            if array[i]+array[j] == total:
+                pair = (array[i], array[j])
+                pairs.append(pair)
+            elif array[i]+array[j]>total:
+                break
+    return pairs
+print(check_pair([0, -1, 2, -3, 1], -2))
+                
+                
+```
