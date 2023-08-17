@@ -24,3 +24,28 @@ def balance_parentheses(input_string):
 
 print(balance_parentheses("[{}{}]"))  # Balanced
 print(balance_parentheses("[{}{}(]"))  # Not balanced
+
+# solution 2 with index:
+```
+def balance_parentheses(input_string):
+    opening_brackets = '{[('
+    closing_brackets = '}])'
+    stack = []
+    for brackets in input_string:
+        if brackets in opening_brackets:
+            stack.append(brackets)
+        elif brackets in closing_brackets:
+            if stack:
+                last_bracket = stack.pop()
+                if opening_brackets.index(last_bracket) == closing_brackets.index(brackets):
+                    continue
+            else:
+                return "Not balanced"
+    if len(stack):
+        return "Not balanced"
+    return "balanced"
+    
+print(balance_parentheses("a(b)c[d]e{f}gh"))
+                
+            
+```
