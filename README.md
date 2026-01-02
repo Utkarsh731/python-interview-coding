@@ -1,4 +1,4 @@
-<b>Python Interview Coding Problems</b><br>
+<b>Python Interview Coding Problems and theoretical questions</b><br>
 Unlock your coding potential with this ultimate repository of software engineering interview problems!
 
 From Level 1 to Level 2 positions, we've got you covered. Get ready to ace your interviews with our Python-based solutions.
